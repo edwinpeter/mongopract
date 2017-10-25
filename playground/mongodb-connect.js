@@ -22,7 +22,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db)=>{
 	});
 
 	db.collection('Users').insertOne({
-		name: 'Edwin',
+		name: 'Edwin Peter',
 		age: 27,
 		location: 'SG'
 	},(err, result)=>{
